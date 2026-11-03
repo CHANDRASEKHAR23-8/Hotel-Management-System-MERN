@@ -1,16 +1,50 @@
-# React + Vite
+# Hotel Management System — React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the React frontend for the MERN Hotel Management System.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- Vite
+- JavaScript
+- CSS
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The frontend provides the user interface for the hotel management application, with components for working with room, guest, booking, and payment information as implemented in the application.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure Node.js and npm are installed.
+
+```bash
+npm install
+```
+
+## Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Related Backend
+
+The backend is located in the `../server` folder and uses Node.js and Express.js.
+
+## Main Project
+
+[Hotel Management System — MERN Repository](https://github.com/CHANDRASEKHAR23-8/Hotel-Management-System-MERN)
+
+## Author
+
+CHANDRA SEKHAR
+
+[GitHub Profile](https://github.com/CHANDRASEKHAR23-8)
